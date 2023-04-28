@@ -1,4 +1,91 @@
-.list { 
-    list-style: none;
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+/* Header */
+/* .header-page {
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+.nav-menu {
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+} */
 
+.menu-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.contact {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* Main Studio*/
+.hero-img {
+/* position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px; */
+background: #2E2F42;
+}
+.main-text {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+/* color: #FFFFFF; */
+}
+.btn-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.feature-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.feature-descr {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.feature-top {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
 }
