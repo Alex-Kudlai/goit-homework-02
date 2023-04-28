@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -12,92 +18,96 @@
     <header>
       <nav>
         <a href="./portfolio.html">WebStudio</a>
-        <ul>
-          <li><a href="Studio">Studio</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Contacts">Contacts</a></li>
+        <ul class="list">
+          <li class="nav-menu"><a class="menu-link" href="Studio">Studio</a></li>
+          <li class="nav-menu"><a class="menu-link" href="Portfolio">Portfolio</a></li>
+          <li class="nav-menu"><a class="menu-link" href="Contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="list">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
-      <div>
-        <ul>
-          <li>All</li>
-          <li>Web Site</li>
-          <li>App</li>
-          <li>Design</li>
-          <li>Marketing</li>
-        </ul>
-      </div>
     </header>
+    <!-- Main -->
+    <main>
+      <section>
+        <h2 hidden>Filters</h2>
+        <ul class="list">
+          <li><button type="button">All</button></li>
+          <li><button type="button">Web Site</button></li>
+          <li><button type="button">App</button></li>
+          <li><button type="button">Design</button></li>
+          <li><button type="button">Marketing</button></li>
+        </ul>
+      </section>
+      <!--Section 1-->
+      <section>
+        <h2 hidden>Row 1</h2>
+        <ul class="list">
+          <li>
+            <img src="./images/one/banking.jpg" alt="banking" width="360" />
+            <h3>Banking App Interface Concept</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/one/cashless.jpg" alt="cashless" width="360" />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/one/meditation.jpg" alt="meditation" width="360" />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+        </ul>
+      </section>
 
-    <!--Section 1-->
-    <section>
-      <h2 hidden>Row 1</h2>
-      <ul>
-        <li>
-          <img src="./images/one/banking.jpg" alt="banking" width="360" />
-          <h3>Banking App Interface Concept</h3>
-          <p>App</p>
-        </li>
-        <li>
-          <img src="./images/one/cashless.jpg" alt="cashless" width="360" />
-          <h3>Cashless Payment</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/one/meditation.jpg" alt="meditation" width="360" />
-          <h3>Meditation App</h3>
-          <p>App</p>
-        </li>
-      </ul>
-    </section>
+      <!--Section 2-->
+      <section>
+        <ul class="list">
+          <li>
+            <img src="./images/two/taxi.jpg" alt="taxi" width="360" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/two/screen.jpg" alt="screen" width="360" />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/two/girl.jpg" alt="girl" width="360" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
 
-    <!--Section 2-->
-    <section>
-      <ul>
-        <li>
-          <img src="./images/two/taxi.jpg" alt="taxi" width="360" />
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/two/screen.jpg" alt="screen" width="360" />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
-        </li>
-        <li>
-          <img src="./images/two/girl.jpg" alt="girl" width="360" />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
-        </li>
-      </ul>
-    </section>
+      <!--Section 3-->
 
-    <!--Section 3-->
-    <section>
-      <ul>
-        <li>
-          <img src="./images/three/Instagram.jpg" alt="instagram" width="360" />
-          <h3>Instagram Stories Concept</h3>
-          <p>Design</p>
-        </li>
-        <li>
-          <img src="./images/three/food.jpg" alt="foog" width="360" />
-          <h3>Organic Food</h3>
-          <p>Web Site</p>
-        </li>
-        <li>
-          <img src="./images/three/coffee.jpg" alt="coffee" width="360" />
-          <h3>Fresh Coffee</h3>
-          <p>Web Site</p>
-        </li>
-      </ul>
-    </section>
+      <section>
+        <ul class="list">
+          <li>
+            <img src="./images/three/Instagram.jpg" alt="instagram" width="360" />
+            <h3>Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/three/food.jpg" alt="foog" width="360" />
+            <h3>Organic Food</h3>
+            <p>Web Site</p>
+          </li>
+          <li>
+            <img src="./images/three/coffee.jpg" alt="coffee" width="360" />
+            <h3>Fresh Coffee</h3>
+            <p>Web Site</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <!--Footer-->
     <footer>
