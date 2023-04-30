@@ -12,7 +12,8 @@
 }
 body {
   font-family: var(--font-family);
-  color: var(--main-color);
+  color: var(--primary-text-color-theme-dark);
+  background-color: var(--main-color);
 }
 .list {
   list-style: none;
@@ -63,6 +64,9 @@ button {
 .menu-list-item:hover,
 .menu-list-item:focus {
   color: var(--accent-color);
+}
+.contact-item-list {
+  font-style: normal;
 }
 .contact-item {
   font-style: normal;
